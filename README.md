@@ -68,7 +68,7 @@ Data files
 `matA.dat` and `matB.dat` are located at:
 - [Classify Share](https://console.cloud.google.com/storage/browser/classify-share)
 
-Below you can see how data can be read/interpreted:
+Below you can see and example how data can be read/interpreted with a smaller dataset:
 
 ```
 # Data File                 # Matrix Representation
