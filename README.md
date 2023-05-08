@@ -90,7 +90,6 @@ Below you can see how data can be read/interpreted:
 
 Final Requirements and Considerations
 ---------------------------------------
-- Use the logger that was done on [advanced-logger](https://github.com/CodersSquad/ap-labs/tree/master/labs/advanced-logger).
 - `printf` function calls are not allowed, use your logger.
 - Use the `*.c` files for implementing your code.
 - Use the `Makefile` for compilation.
@@ -105,17 +104,21 @@ Build and Test automation is already implemented with the following command. Bel
 
 - Make sure that your program passes all test cases without errors.
 - Remember that this is being executed by a robot script.
-- You cannot edit the `lab.mk` file.
 - Failed compilation or segmentation faults means 0-graded.
 - Failed tests without proper handling  will be properly discounted from total grade.
 
+
+- To download the data
+```
+make data_files
+```
+
+- To build
+```
+make build
+```
+
+- To test
 ```
 make test
 ```
-
-How to submit your work
-=======================
-```
-GITHUB_USER=<your_github_user>  make submit
-```
-More details at: [Classify API](../../classify.md)
